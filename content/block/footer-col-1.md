@@ -1,3 +1,6 @@
-#### Footer col 1
+#### Course
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+This is a website for the course 
+Object-Oriented Web Technologies (oophp) 
+at Blekinge Institute of Technology 
+<i class="fa fa-university fa-lg"></i>

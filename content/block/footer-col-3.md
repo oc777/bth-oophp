@@ -1,3 +1,4 @@
-#### Footer col 3
+#### More
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+I might add some links here...  
+Or not <span class="smiley">:P</span> 

@@ -19,10 +19,21 @@ views:
 Om
 =========================
 
+<p class="comment" markdown="1">
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+</p>
 
-Skriv några kloka ord om kursen?
+The course Object-Oriented Web Technologies (a.k.a. oophp) 
+is focused on the object-oriented programming techniques using PHP. 
 
-Lägg till en fin och representativ bild för kursen, enligt ditt eget val.
+[FIGURE src=image/oophp.jpg?w=500 caption="OO PHP"]
 
-[FIGURE src=image/car.png?w=740&filter=grayscale&f1=colorize,0,30,0,0 caption="En fin bil som demobild, lite oklart hur den är representativ, men ändå..."]
+The course covers the following areas: 
+
+- OO programming with PHP 
+- Unit testing 
+- Design patterns 
+- Objects as reusable structures 
+- SQL with PHP Data Objects 
+- Developing application within a framework 
+- Web application deployment 

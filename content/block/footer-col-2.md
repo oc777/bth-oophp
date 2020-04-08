@@ -1,3 +1,7 @@
-#### Footer col 2
+#### GitHub
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+The source code for this website 
+is version controlled using <i class="fab fa-git-square fa-lg"></i>
+and lives happily at 
+<a href="https://github.com/oc777/bth-oophp" target="_blank">
+<i class="fab fa-github-square fa-lg"></i></a>

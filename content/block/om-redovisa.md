@@ -1,3 +1,4 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+My personal repository with source code for the report website in this course can be found 
+[here&nbsp;<i class="fab fa-github fa-lg"></i>](https://github.com/oc777/bth-oophp)
