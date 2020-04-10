@@ -1,0 +1,29 @@
+html {
+    background-color: darksalmon;
+}
+
+body {
+    background-color: pink;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;;
+    padding: 30px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
