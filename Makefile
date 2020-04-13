@@ -249,13 +249,16 @@ check-docker:
 install-tools-php:
 	@$(call HELPTEXT,$@)
 	#curl -Lso $(PHPDOC) https://www.phpdoc.org/phpDocumentor.phar && chmod 755 $(PHPDOC)
-	curl -Lso $(PHPDOC) https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar && chmod 755 $(PHPDOC)
+	# https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar
+	# curl -Lso $(PHPDOC) https://github.com/phpDocumentor/phpDocumentor/releases/download/v2.9.1/phpDocumentor.phar && chmod 755 $(PHPDOC)
+	curl -Lso $(PHPDOC) https://github.com/phpDocumentor/phpDocumentor/releases/download/v3.0.0-rc/phpDocumentor.phar && chmod 755 $(PHPDOC)
 
 	curl -Lso $(PHPCS) https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar && chmod 755 $(PHPCS)
 
 	curl -Lso $(PHPCBF) https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar && chmod 755 $(PHPCBF)
 
-	curl -Lso $(PHPMD) https://github.com/phpmd/phpmd/releases/download/2.7.0/phpmd.phar && chmod 755 $(PHPMD)
+	# prev v2.7.0
+	curl -Lso $(PHPMD) https://github.com/phpmd/phpmd/releases/download/2.8.2/phpmd.phar && chmod 755 $(PHPMD)
 	# curl -Lso $(PHPMD) http://static.phpmd.org/php/latest/phpmd.phar && chmod 755 $(PHPMD)
 	# curl -Lso $(PHPMD) http://www.student.bth.se/~mosstud/download/phpmd.phar && chmod 755 $(PHPMD)
 
